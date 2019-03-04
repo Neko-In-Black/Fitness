@@ -1,0 +1,57 @@
+@media only screen and (min-width: 0) and (max-width: 992px) {
+  .nav-item {
+    margin: 0;
+  }
+}
+
+
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .art-description {
+    padding-bottom: 30px;
+  }
+
+  .art-image {
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) and (orientation: landscape) {
+  .slogan {
+    bottom: 35px;
+  }
+  .slogan_title {
+    font-size: 25px;
+  }
+
+  .slogan_title--small {
+    font-size: 13px;
+  }
+
+  .shape {
+    display: none;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+  .main-header {
+    background-position: 55% 0;
+  }
+
+  .slogan_title {
+    font-size: 25px;
+  }
+
+  .slogan_title--small {
+    font-size: 13px;
+  }
+
+  .art-description_title {
+    font-size: 26px;
+  }
+
+}
