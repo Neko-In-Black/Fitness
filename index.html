@@ -5,13 +5,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <title>Fitness</title>
+    <!-- FONTS -->
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FF -->
     <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
+    <title>Fitness</title>
   </head>
 
   <body>
@@ -153,7 +156,7 @@
         </section>
       </div>
       <!--   second part -->
-      <div class="red-bg padding-100">
+      <div class="red-bg pb-60">
         <section class="container lifestyle">
           <h2 class="sr-only">lifestyle</h2>
           <div class="row no-gutters">
@@ -224,9 +227,11 @@
         </section>
         <!-- third part -->
         <section class="idea">
-          <div class="idea_wrapper">
-            <h2 class="idea_heading">We launch leaders with big ideas</h2>
-            <p class="idea_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="container-fluid">
+            <div class="idea_wrapper">
+              <h2 class="idea_heading">We launch leaders with big ideas</h2>
+              <p class="idea_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
           </div>
           <div class="figure"></div>
         </section>
@@ -236,43 +241,59 @@
     <!-- =====================
               FOOTER
         ======================-->
-        <footer class="main-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 footer-item">
-                <h2 class="footer-item_heading">Resources</h2>
-                <p class="footer-item_description">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p>
-              </div>
-              <div class="col-lg-5 footer-item">
-                <h2 class="footer-item_heading">About us</h2>
-                <p class="footer-item_description">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p>
-              </div>
-              <div class="col-lg-3 footer-item">
-                <h2 class="footer-item_heading">Stay in touch</h2>
-                <p class="footer-item_description">
-                  <a href="#" class="footer-item_link footer-item_link--facebook">
-                    <span class="fa fa-facebook" aria-hidden="true"></span>
-                  </a>
-                  <a href="#" class="footer-item_link footer-item_link--twitter">
-                    <span class="fa fa-twitter" aria-hidden="true"></span>
-                  </a>
-                  <a href="#" class="footer-item_link footer-item_link--youtube">
-                    <span class="fa fa-youtube-play" aria-hidden="true"></span>
-                  </a>
-                  <a href="#" class="footer-item_link footer-item_link--linkedin">
-                    <span class="fa fa-linkedin" aria-hidden="true"></span>
-                  </a>
-                </p>
-              </div>
-            </div>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-item">
+            <h2 class="footer-item_heading">Resources</h2>
+            <p class="footer-item_description">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p>
           </div>
-        </footer>
+          <div class="col-md-5 footer-item">
+            <h2 class="footer-item_heading">About us</h2>
+            <p class="footer-item_description">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h2 class="footer-item_heading">Stay in touch</h2>
+            <p class="footer-item_description">
+              <a href="#" class="footer-item_link footer-item_link--facebook">
+                <span class="fa fa-facebook" aria-hidden="true"></span>
+              </a>
+              <a href="#" class="footer-item_link footer-item_link--twitter">
+                <span class="fa fa-twitter" aria-hidden="true"></span>
+              </a>
+              <a href="#" class="footer-item_link footer-item_link--youtube">
+                <span class="fa fa-youtube-play" aria-hidden="true"></span>
+              </a>
+              <a href="#" class="footer-item_link footer-item_link--linkedin">
+                <span class="fa fa-linkedin" aria-hidden="true"></span>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-8 ml-auto footer-item">
+            <form method="POST" action="/">
+              <div class="form-row justify-content-center">
+                <div class="col-md-4 form-group mb-md-0">
+                  <label for="clientName" class="sr-only">Enter Your Name</label>
+                  <input type="text" class="form-control" id="clientName" placeholder="Your Name">
+                </div>
+                <div class="col-md-5 form-group mb-md-0 px-md-0">
+                  <label for="clientEmail" class="sr-only">Email</label>
+                  <input type="email" class="form-control" id="clientEmail" placeholder="Your Email">
+                </div>
+                <button type="submit" class="btn btn-success col-md-3 col-6">Join Newsletter
+                  <span class="fa fa-chevron-circle-right" aria-hidden="true"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery_3.2.1.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </body>
 

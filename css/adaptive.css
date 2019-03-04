@@ -2,6 +2,14 @@
   .nav-item {
     margin: 0;
   }
+
+  .art-image--running {
+    background-size: cover;
+  }
+
+  .idea_wrapper {
+    min-height: 500px
+  }
 }
 
 
@@ -14,12 +22,21 @@
   .art-image {
     background-size: cover;
   }
+
+  .idea {
+    background-position-x: 50%;
+  }
+
+  .idea_wrapper {
+    min-height: 400px
+  }
 }
 
 @media only screen and (min-width: 0) and (max-width: 767px) and (orientation: landscape) {
   .slogan {
     bottom: 35px;
   }
+
   .slogan_title {
     font-size: 25px;
   }
@@ -32,8 +49,6 @@
     display: none;
   }
 }
-
-
 
 
 
@@ -54,4 +69,11 @@
     font-size: 26px;
   }
 
+  .idea_heading {
+    font-size: 25px;
+  }
+
+  .idea_description {
+    font-size: 14px;
+  }
 }
